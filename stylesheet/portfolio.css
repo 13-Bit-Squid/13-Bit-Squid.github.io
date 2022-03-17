@@ -98,14 +98,15 @@ footer {
 
 /***** NAVBAR STYLING *****/
 .Navbar {
-    overflow: hidden; 
-    background-color: rgb(231, 196, 129); 
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    z-index: 1; 
-    -webkit-animation: moveNav 5s; 
-    animation: moveNav 5s; 
+    overflow: hidden;
+    background-color: rgb(231, 196, 129);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 5%;
+    z-index: 1;
+    -webkit-animation: moveNav 5s;
+    animation: moveNav 5s;
 }
 
 @keyframes moveNav {
