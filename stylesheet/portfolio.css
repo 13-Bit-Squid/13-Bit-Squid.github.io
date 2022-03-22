@@ -64,7 +64,7 @@ p:hover {
 /* Anchor elements */
 a {
     color: rgb(238, 94, 94);
-    height: 5%;
+    height: 11%;
     cursor: pointer; /* This ensures all links change the mouse to a pointer when hovered over or clicked */
     text-decoration: underline; /* This ensures all links are underlined */
 }
@@ -104,7 +104,7 @@ footer {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 5%;
+    height: 10%;
     z-index: 1;
     -webkit-animation: moveNav 5s;
     animation: moveNav 5s;
