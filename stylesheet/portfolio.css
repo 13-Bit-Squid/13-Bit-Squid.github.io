@@ -63,7 +63,8 @@ p:hover {
 
 /* Anchor elements */
 a {
-    color: rgb(238, 94, 94); 
+    color: rgb(238, 94, 94);
+    height: 5%;
     cursor: pointer; /* This ensures all links change the mouse to a pointer when hovered over or clicked */
     text-decoration: underline; /* This ensures all links are underlined */
 }
@@ -117,7 +118,6 @@ footer {
 /* Navbar links */
 .Navbar a {
     float: left;
-    height: 5%;
     display: block;
     color: white;
     padding: 14px 16px;
