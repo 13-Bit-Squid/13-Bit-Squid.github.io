@@ -12,181 +12,188 @@
     <!--Body-->
     <body class="Background">
 
-        <script>
-            document.body.classList.add('fade-out')
-        </script>
-        
-        <!--Navbar-->
-        <div class="Navbar">
-            <a class="active" href="#Home">Home</a>
-            <a href="#About">About</a>
-            <a href="#GitHub">GitHub</a>
-            <a href="#Contact">Contact</a>
-        </div>
-        <!--End Navbar-->
+      <script>
+        document.body.classList.add('fade-out')
+      </script>
 
-        <!--Breaks inserted to add space between navbar and the first heading-->
-
-        <!--Background video-->
-        <div id="Home">
-            <video autoplay muted loop id="Typing_Video">
-                <source src="images/video/Fast Typing - 1656.mp4" type="video/mp4">
-                <!--Display message if video fails to run-->
-                Your browser does not support HTML5 video.
-            </video>
-        </div>
-        <!--End of Background Video-->
-
-        <!--Video Text-->
-        <div class="Video_Text">
-            <h1 class="white-text">Ty Chew's Portfolio</h1>
-            <strong>
-              <p class="center">
-                <q>
-                  I think that in life, as in game design, you have to find the fun. There is
-                  <br>joy out there waiting to be discovered, but it might not be where you
-                  <br>expected. You can’t decide what something’s going to be before you
-                  <br>embark on it, and you shouldn’t stick with a bad idea just because you’re
-                  <br>fond of it. Take action as quickly and repeatedly as possible, take
-                  <br>advantage of what you already know, and take liberties with tradition.
-                  <br>But most importantly, take the time to appreciate the possibilities, and
-                  <br>make sure all of your decisions are interesting ones.
-                </q>
-                <br>
-                <br> -Sid Meier, Sid Meier's Memoir!: A Life in Computer Games
-                <br>
-                <br> My name is Ty Chew, and welcome to my portfolio website. On it, you'll get to know a little more about my background and experience.
-                <br>
-                <br> Thanks so much for stopping by, and I hope you enjoy what you see!
-              </p>
-            </strong>
-        </div>
-        <!--End of Video Text-->
-
-        <!--Slideshow section-->
-        <div id="Slideshow">
-            <div id="Slideshow_Background"> 
-                <div id="Slideshow_Container">
-                    <!-- Slide 1 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/IMG_1293.JPG" alt="Picture of yourself">
-                        <div class="text">I'm available to assist you on your project!<br> (This is my grandma and I!)</div>
-                    </div>
-                    <!-- Slide 2 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos"> 
-                        <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
-                    </div>
-                    <!-- Slide 3 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
-                        <div class="text">the popular programming language Python,</div>
-                    </div>
-                    <!-- Slide 4 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
-                        <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
-                    </div>
-                    <!-- Slide 5 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo"> 
-                        <div class="text">back end development, databases and SQL.</div>
-                    </div>
-                    <!-- Slide 6 of 6 -->
-                    <div class="mySlides fade">
-                        <img class="Slideshow_Images" src="images/pexels-cottonbro-3206079.jpg" alt="Contact me anytime!"> 
-                        <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div> 
-                    </div>
-                    <!-- Previous and next buttons -->
-                    <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="Next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                <br> <!-- Adds a space between the slideshow images and the dots -->
-
-                <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
-                <div style="text-align: center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                    <span class="dot" onclick="currentSlide(4)"></span> 
-                    <span class="dot" onclick="currentSlide(5)"></span> 
-                    <span class="dot" onclick="currentSlide(6)"></span> 
-                </div>
-            </div>
-        </div>
-        <!--End of Slideshow Section-->
-
-        <!--About Section-->
-        <div class="Row" id="About">
-            <!--Left Column-->
-            <div class="Column_2">
-                <img src="images/pexels-fauxels-3184460.jpg" alt="Ochre Desk">
-            </div>
-            <!--Right Column-->
-            <div class="Column_1">
-                <h1>About</h1>
-                <p>
-                    I am a software developer with a particular interest in game design! As far as personal hobbies go, I enjoy drawing and recently, making and painting miniatures.
-                    <br>
-                    <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Game Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. Additionally, I am well versed in developing in both Unreal and Unity game engines!
-                    <br>
-                    <br>I am a full-stack developer and would love to work with you on your project. <a onclick="openForm()" href="#Contact">Contact</a> me below!
-                </p>
-            </div>
-        </div>
-        <!--End of About Section-->
-
-        <!--GitHub Section-->
-        <div class="Row" id="GitHub">
-            <!--Left Column-->
-            <div class="Column_1">
-                <h1>GitHub</h1>
-                <p class="center">
-                  You can view my coding and Unity projects on my <br> GitHub profile here:
-                  <a href="https://github.com/13-Bit-Squid" target="_blank"> @13-Bit-Squid on Github</a>
-                </p>
-            </div>
-            <!--Right Column-->
-            <div class="Column_2">
-                <a href="https://github.com/13-Bit-Squid" target="_blank"><img src="images/github_PNG15.png" alt="GitHub Logo"></a>
-            </div>
-        </div>
-        <!--End of Github Section-->
-
-        <!-- Contact form -->
-        <div id="Contact">
-            <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
-            <div class="form-popup" id="myForm">
-                 <form action="https://formspree.io/f/mbjqjlyk" method="POST" class="form-container"> 
-                     <h1>Contact</h1>
-                     <label for="name"><b>Name</b></label>
-                       <input type="text" placeholder="Type your name here" name="name" required>
-                     <label for="phone"><b>Phone</b></label>
-                       <input type="text" placeholder="Type your phone number here" name="phone">
-                     <label for="email"><b>Email</b></label>		
-                       <input type="text" placeholder="Type your email address here" name="email" required>
-                     <label for="message"><b>Message</b></label>
-                       <input type="text" placeholder="Type your message here" name="message">
-          
-                     <button type="submit" class="btn">SUBMIT</button>
-                     <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
-                 </form>
-            </div>
-         </div>
-        <!--End of Contact Section-->
-
-        <!--Footer Section-->
-        <footer>
-          <p>
+      <!--Navbar-->
+      <div class="Navbar">
+        <a class="active" href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#GitHub">GitHub</a>
+        <a href="#Contact">Contact</a>
+      </div>
+      <!--End Navbar-->
+      <!--Breaks inserted to add space between navbar and the first heading-->
+      <!--Background video-->
+      <div id="Home">
+        <video autoplay muted loop id="Typing_Video">
+          <source src="images/video/Fast Typing - 1656.mp4" type="video/mp4">
+          <!--Display message if video fails to run-->
+          Your browser does not support HTML5 video.
+        </video>
+      </div>
+      <!--End of Background Video-->
+      <!--Video Text-->
+      <div class="Video_Text">
+        <h1 class="white-text">Ty Chew's Portfolio</h1>
+        <strong>
           <p class="center">
-            You can reach me personally at my email at: <b>tche.coding@gmail.com</b> or
-            <br>you can submit your contact information via the <a onclick="openForm()" href="#Contact">contact button above.</a> 
+            <q>
+              I think that in life, as in game design, you have to find the fun. There is
+              <br>joy out there waiting to be discovered, but it might not be where you
+              <br>expected. You can’t decide what something’s going to be before you
+              <br>embark on it, and you shouldn’t stick with a bad idea just because you’re
+              <br>fond of it. Take action as quickly and repeatedly as possible, take
+              <br>advantage of what you already know, and take liberties with tradition.
+              <br>But most importantly, take the time to appreciate the possibilities, and
+              <br>make sure all of your decisions are interesting ones.
+            </q>
+            <br>
+            <br> -Sid Meier, Sid Meier's Memoir!: A Life in Computer Games
+            <br>
+            <br> My name is Ty Chew, and welcome to my portfolio website. On it, you'll get to know a little more about my background and experience.
+            <br>
+            <br> Thanks so much for stopping by, and I hope you enjoy what you see!
           </p>
-          <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+        </strong>
+      </div>
+      <!--End of Video Text-->
+      <!--Slideshow section-->
+      <div id="Slideshow">
+        <div id="Slideshow_Background">
+          <div id="Slideshow_Container">
+            <!-- Slide 1 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/IMG_1293.JPG" alt="Picture of yourself">
+              <div class="text">I'm available to assist you on your project!<br> (This is my grandma and I!)</div>
+            </div>
+            <!-- Slide 2 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JS logos">
+              <div class="text">I am a full-stack software developer,<br> trained in:<br>HTML, CSS, JavaScript,</div>
+            </div>
+            <!-- Slide 3 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/Python.png" alt="Python logo">
+              <div class="text">the popular programming language Python,</div>
+            </div>
+            <!-- Slide 4 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/C_Sharp_and_Dot_NET.png" alt="C# logo">
+              <div class="text">C#, .NET Framework, ASP.NET, MVC, </div>
+            </div>
+            <!-- Slide 5 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/SQL_and_Database.jpg" alt="SQL logo">
+              <div class="text">back end development, databases and SQL.</div>
+            </div>
+            <!-- Slide 6 of 6 -->
+            <div class="mySlides fade">
+              <img class="Slideshow_Images" src="images/pexels-cottonbro-3206079.jpg" alt="Contact me anytime!">
+              <div class="text"><a class="white-text" onclick="openForm()" href="#Contact">Contact me now!</a></div>
+            </div>
+            <!-- Previous and next buttons -->
+            <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br> <!-- Adds a space between the slideshow images and the dots -->
+          <!-- Slideshow dots (these are another way for users to navigate through the slideshow) -->
+          <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+          </div>
+        </div>
+      </div>
+      <!--End of Slideshow Section-->
+      <!--About Section-->
+      <div class="Row" id="About">
+        <!--Left Column-->
+        <div class="Column_2">
+          <img src="images/pexels-fauxels-3184460.jpg" alt="Ochre Desk">
+        </div>
+        <!--Right Column-->
+        <div class="Column_1">
+          <h1>About</h1>
+          <p>
+            I am a software developer with a particular interest in game design! As far as personal hobbies go, I enjoy drawing and recently, making and painting miniatures.
+            <br>
+            <br>I am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Game Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. Additionally, I am well versed in developing in both Unreal and Unity game engines!
+            <br>
+            <br>I am a full-stack developer and would love to work with you on your project. <a onclick="openForm()" href="#Contact">Contact</a> me below!
           </p>
-        </footer>
-        <!--End of Footer Section-->
-        <script src="js/javascript.js"></script>
+        </div>
+      </div>
+      <!--End of About Section-->
+      <!--UE Section-->
+      div class="Row" id="Unreal Engine">
+      <!--Left Column-->
+      <div class="Column_1">
+        <h1>Unreal Engine</h1>
+        <p class="center">
+          This is my most recent project made in Unreal Engine 4, with more images and details that can be found in my Github.
+        </p>
+        <a href="https://github.com/13-Bit-Squid" target="_blank"><img src="images/Picture1.png" alt="Dungeon Screencap"></a>
+      </div>
+      <!--Right Column-->
+      <div class="Column_2">
+        <img src="images/ue-logo-stacked.png" alt="UE Logo">
+      </div>
+      </div>
+      <!--End of UE Section-->
+      <!--GitHub Section-->
+      <div class="Row" id="GitHub">
+        <!--Left Column-->
+        <div class="Column_2">
+          <a href="https://github.com/13-Bit-Squid" target="_blank"><img src="images/github_PNG15.png" alt="GitHub Logo"></a>
+        </div>
+        <!--Right Column-->
+        <div class="Column_1">
+          <h1>GitHub</h1>
+          <p class="center">
+            You can view my coding and Unity projects on my <br> GitHub profile here:
+            <a href="https://github.com/13-Bit-Squid" target="_blank"> @13-Bit-Squid on Github</a>
+          </p>
+        </div>
+      </div>
+      <!--End of Github Section-->
+      <!-- Contact form -->
+      <div id="Contact">
+        <button onclick="openForm()" class="Pop_Up_Button">CONTACT</button>
+        <div class="form-popup" id="myForm">
+          <form action="https://formspree.io/f/mbjqjlyk" method="POST" class="form-container">
+            <h1>Contact</h1>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Type your name here" name="name" required>
+            <label for="phone"><b>Phone</b></label>
+            <input type="text" placeholder="Type your phone number here" name="phone">
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Type your email address here" name="email" required>
+            <label for="message"><b>Message</b></label>
+            <input type="text" placeholder="Type your message here" name="message">
+
+            <button type="submit" class="btn">SUBMIT</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">CLOSE</button>
+          </form>
+        </div>
+      </div>
+      <!--End of Contact Section-->
+      <!--Footer Section-->
+      <footer>
+        <p>
+        <p class="center">
+          You can reach me personally at my email at: <b>tche.coding@gmail.com</b> or
+          <br>you can submit your contact information via the <a onclick="openForm()" href="#Contact">contact button above.</a>
+        </p>
+        <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
+        </p>
+      </footer>
+      <!--End of Footer Section-->
+      <script src="js/javascript.js"></script>
     </body>
     <!--End of Body-->
 
